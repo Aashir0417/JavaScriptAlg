@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #0F52BA, #800080);
+    display:block;
+    margin:0 auto;
+ font-family:sans-serif;
+ 
+}
+h1 {
+  color:white
+}
+#user-input {
+  margin:0 auto;
+  display:block;
+ border:5px solid black;
+ background-color:yellow;
+
+}
+
+
+#user-input::placeholder {
+  color:black;
+  font-family:cursive
+}
+
+#check-btn,#clear-btn {
+background-color:black;
+border:none;
+margin:30px auto;
+display:block;
+color:white;
+font-family:cursive
+}
+
+#results-div {
+ 
+  font-family:cursive;
+
+ color:black;
+ margin:0 auto;
+ display:block;
+ 
+}
